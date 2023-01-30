@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2e8138-900e-4056-9330-241050a8498f" name="Default Changelist" comment="first push to github">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/controller/viewobject/ItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dao/ItemDOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dao/ItemStockDOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dao/OrderDOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dao/PromoDOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dao/SequenceDOMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dataobject/ItemDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dataobject/ItemStockDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dataobject/OrderDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dataobject/PromoDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dataobject/PromoDO.java.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/dataobject/SequenceDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/PromoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/impl/PromoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/ItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/OrderModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/PromoModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemStockDOMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/OrderDOMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/PromoDOMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/SequenceDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seckillproject/error/EnumBizError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/error/EnumBizError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seckillproject/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seckillproject/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seckillproject/dataobject/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seckillproject/dataobject/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seckillproject/dataobject/UserPasswordDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seckillproject/dataobject/UserPasswordDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seckillproject/error/EnumBizError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seckillproject/error/EnumBizError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserPasswordDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserPasswordDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d2e8138-900e-4056-9330-241050a8498f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,6 +139,7 @@
       <workItem from="1639942360889" duration="6424000" />
       <workItem from="1639950955356" duration="5363000" />
       <workItem from="1675020663671" duration="676000" />
+      <workItem from="1675116428043" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1632075715992</created>
@@ -190,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632075715993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete push to github">
+      <created>1675116536288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675116536288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,9 +165,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first push to github" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="complete push to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete push to github" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="557" y="113" key="CommitChangelistDialog2" timestamp="1675116533410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1675116533410" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1675116433913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
