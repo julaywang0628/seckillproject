@@ -11,6 +11,10 @@ public enum EnumBizError implements CommonError {
     //user message error
     USER_NOT_EXIST(20001, "no user exists"),
     USER_LOGIN_ERROR(20002, "telephone num or password is incorrect"),
+    USER_NOT_LOGIN(20003, "the user hasn't loggin in"),
+
+    //transaction error
+    STOCK_NOT_ENOUGH(30001, "The stock is not enough"),
     ;
 
     private EnumBizError(int errCode, String errMsg) {

@@ -31,7 +31,7 @@
         <javaModelGenerator targetPackage="com.seckillproject.dataobject" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
             <!-- 从数据库返回的值被清理前后的空格  -->
-            <property name="trimStrings" value="true" />
+            <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!--对应的mapper.xml文件  -->
@@ -46,12 +46,45 @@
 
 
         <!-- 列出要生成代码的所有表，这里配置的是不生成Example文件 -->
+        <!--
         <table tableName="user_info" domainObjectName="UserDO"
-               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
         <table tableName="user_password" domainObjectName="UserPasswordDO"
-               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table> <table tableName="item" domainObjectName="ItemDO"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        -->
+
+
+<!--        <table tableName="item_stock" domainObjectName="ItemStockDO"-->
+<!--               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false"-->
+<!--               selectByExampleQueryId="false">-->
+<!--        </table>-->
+
+<!--        <table tableName="order_info" domainObjectName="OrderDO"-->
+<!--               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false"-->
+<!--               selectByExampleQueryId="false">-->
+<!--        </table>-->
+
+<!--        <table tableName="sequence_info" domainObjectName="SequenceDO"-->
+<!--               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false"-->
+<!--               selectByExampleQueryId="false">-->
+<!--        </table>-->
+
+        <table tableName="promo" domainObjectName="PromoDO"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
     </context>
