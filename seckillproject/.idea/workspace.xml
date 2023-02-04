@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2e8138-900e-4056-9330-241050a8498f" name="Default Changelist" comment="" />
+    <list default="true" id="7d2e8138-900e-4056-9330-241050a8498f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/PromoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/PromoModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +142,8 @@
       <workItem from="1639942360889" duration="6424000" />
       <workItem from="1639950955356" duration="5363000" />
       <workItem from="1675020663671" duration="676000" />
-      <workItem from="1675116428043" duration="244000" />
+      <workItem from="1675116428043" duration="712000" />
+      <workItem from="1675549789435" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1632075715992</created>
@@ -155,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675116536288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete push to github">
+      <created>1675116902234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675116902234</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,13 +180,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="complete push to github" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="113" key="CommitChangelistDialog2" timestamp="1675116533410">
+    <state x="557" y="113" key="CommitChangelistDialog2" timestamp="1675116901063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1675116533410" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1675116433913">
+    <state x="557" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1675116901063" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1675549790105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1675116433913" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1675549790105" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1675549996874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1675549996874" />
   </component>
 </project>

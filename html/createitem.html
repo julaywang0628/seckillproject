@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="static/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="static/assets/global/css/components.css" rel="stylesheet" type="text/css"/>
+        <link href="static/assets/admin/pages/css/login.css" rel="stylesheet" type="text/css"/>
+        <script src="static/assets/global/plugins/jquery-1.11.0.min.js" type="text/javascript"></script>
+    </head>
+
+    <body class="login">
+        <div class="content">
+            <h3 class="form-title">create an item</h3>
+            <div class="form-group">
+                <label class="control-label">item title</label>
+                <div>
+                    <input class="form-control" type="text" name="title" id="title" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">item description</label>
+                <div>
+                    <input class="form-control" type="text" name="description" id="description" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">price</label>
+                <div>
+                    <input class="form-control" type="text" name="price" id="price" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">picture</label>
+                <div>
+                    <input class="form-control" type="text" name="imgUrl" id="imgUrl" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label">stock</label>
+                <div>
+                    <input class="form-control" type="text" name="stock" id="stock" />
+                </div>
+            </div>
+           
+            <div class="form-actions">
+                <button class="btn blue" id="create" type="submit">
+                    submit to create
+                </button>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function(){
+
+            //binding the time of click otp to send request of gettingn verify nums to back end
+            $("#create").on("click",function(){
+                var title = $("#title").val();
+                var description = $("#description").val();
+                var price = $("#price").val();
+                var stock = $("#stock").val();
+                var imgUrl = $("#imgUrl").val();
+                if(title == null ||title == ""){
+                    alert("title cannot be null");
+                    return false;
+                }
+                if(description == null ||description == ""){
+                    alert("description cannot be null");
+                    return false;
+                }
+                if(price == null ||price == ""){
+                    alert("price cannot be null");
+                    return false;
+                }
+                if(stock == null ||stock == ""){
+                    alert("stock cannot be null");
+                    return false;
+                }
+                if(imgUrl == null ||imgUrl == ""){
+                    alert("imgUrl cannot be null");
+                    return false;
+                }
+                
+                $.ajax({
+                    type:"POST",
+                    contentType:"application/x-www-form-urlencoded",
+                    url:"http://localhost:8090/item/create",
+                    data:{
+                        "title":title,
+                        "description":description,
+                        "price":price,
+                        "stock":stock,
+                        "imgUrl":imgUrl,
+                        "name":name
+                        
+                    },
+                    xhrFields:{withCredentials:true},
+                    success:function(data){
+                        if(data.status == "success") {
+                            alert("create successfully");
+                        }else{
+                            alert("failed to create, the reason is "+data.data.errMsg);
+                        }
+
+                    },
+                    error:function(data){
+                        alert("failed to create, the reason is " + data.responseText);
+                    }
+               });
+               return false;
+
+            });
+        });
+
+    </script>
+</html>
