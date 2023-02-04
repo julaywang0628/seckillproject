@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d2e8138-900e-4056-9330-241050a8498f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/PromoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seckillproject/service/model/PromoModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -143,7 +142,7 @@
       <workItem from="1639950955356" duration="5363000" />
       <workItem from="1675020663671" duration="676000" />
       <workItem from="1675116428043" duration="712000" />
-      <workItem from="1675549789435" duration="285000" />
+      <workItem from="1675549789435" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1632075715992</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675116902234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete push to github">
+      <created>1675550114053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675550114054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +186,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="complete push to github" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="113" key="CommitChangelistDialog2" timestamp="1675116901063">
+    <state x="557" y="113" key="CommitChangelistDialog2" timestamp="1675550111173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1675116901063" />
+    <state x="557" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1675550111173" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1675550321713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1675550321713" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1675550356831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1675550356831" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1675550143110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1675550143110" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1675549790105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
